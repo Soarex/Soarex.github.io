@@ -642,6 +642,14 @@ section {
 /*--------------------------------------------------------------
 # Seidon
 --------------------------------------------------------------*/
+.services
+{
+  background: url("../img/pbr-gif.webp") no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: #999;
+  background-blend-mode: multiply;
+}
 
 .services .btn-wrap {
   margin: 10px -10px -10px -10px;
