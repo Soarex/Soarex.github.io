@@ -713,6 +713,41 @@ section {
   background: var(--accent_color_light);
 }
 
+/*--------------------------------------------------------------
+# Animation
+--------------------------------------------------------------*/
+.animation
+{
+  margin-top: 10px;
+  background: url("../img/animation-gif.webp") no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: #888;
+  background-blend-mode: multiply;
+}
+
+.animation .btn-wrap {
+  margin: 10px -10px -10px -10px;
+  padding: 20px 15px;
+  text-align: center;
+}
+
+.animation .button {
+  background: var(--accent_color);
+  display: inline-block;
+  padding: 8px 35px;
+  border-radius: 4px;
+  color: #fff;
+  transition: none;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.animation .button:hover {
+  background: var(--accent_color_light);
+}
 
 /*--------------------------------------------------------------
 # Footer
